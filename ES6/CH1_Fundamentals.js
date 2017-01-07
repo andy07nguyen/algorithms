@@ -200,8 +200,8 @@ console.log(`Sum of all odd integer values between -300,000 and 300,000 is ${sum
 /*
 const fourParamFunction = (param1, param2, param3, param4) => {
   for (param2; param2 <= param3; param2++) {
-    param2 % param1 === 0 && param2 != param4 ? 
-    console.log(param2): undefined;
+    if (param2 % param1 === 0 && param2 != param4)  
+      console.log(param2)
   }
 }
 
